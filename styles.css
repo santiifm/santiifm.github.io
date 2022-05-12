@@ -3,14 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-ç
 @font-face {
-  font-family: "Tell us, Pangaia";
-  src: url('/font/tell-us-pangaia.ttf');
+  font-family: "Morris Roman";
+  src: url('font/morris.ttf');
 }
 
 body {
-  font-family: "Tell us, Pangaia";
+  font-family: "Morris Roman";
   color: #FFFFFF;
   background: url('./img/bg-dark.png') no-repeat center fixed;
   background-size: cover;
@@ -22,30 +21,32 @@ h3,
 h4,
 button,
 .btn {
-  font-family: "Tell us, Pangaia";
-  font-weight: Regular;
+  font-family: "Morris Roman";
   color: #FFFFFF;
   text-shadow: 2px 2px #000000;
 }
 h1{
- font-size: 65px;
+  font-size: 65px;
+  font-style: oblique;
 }
 h2{
- font-size: 55px;
+  font-size: 55px;
+  font-style: oblique;
 }
 h3{
- font-size: 45px;
+  font-size: 45px;
+  font-style: oblique;
 }
 h4{
- font-size: 35px;
+  font-size: 35px;
 }
 p{
- font-size: 30px;
- text-shadow: 2px 2px #000000;
+  font-size: 30px;
+  text-shadow: 2px 2px #000000;
 }
 button,
 .btn {
- font-size: 25px;
+  font-size: 25px;
 }
 
 .site-header {
